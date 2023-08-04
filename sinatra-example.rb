@@ -2,9 +2,6 @@ require 'sinatra'
 require 'rex'
 require 'securerandom'
 require_relative 'utils.rb'
-require 'rack-request-id'
-
-#use Rack::RequestId
 
 NTLM_CONST = Rex::Proto::NTLM::Constants
 NTLM_CRYPT = Rex::Proto::NTLM::Crypt
